@@ -29,15 +29,14 @@
                 </li>
             </ul>
          </nav>
-        <div id="Cuerpo">
+           
+       </div>
+        <asp:ContentPlaceHolder runat="server" ID="main">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder runat="server" ID="footer">
+        </asp:ContentPlaceHolder>
 
-        </div>
 
-        <footer>
-
-        </footer>
-
-    </div>
     </form>
 </body>
 </html>
